@@ -9,181 +9,181 @@
 @class SystemEventsItem, SystemEventsApplication, SystemEventsColor, SystemEventsDocument, SystemEventsWindow, SystemEventsAttributeRun, SystemEventsCharacter, SystemEventsParagraph, SystemEventsText, SystemEventsAttachment, SystemEventsWord, SystemEventsScreenSaver, SystemEventsScreenSaverPreferencesObject, SystemEventsConfiguration, SystemEventsInterface, SystemEventsLocation, SystemEventsNetworkPreferencesObject, SystemEventsService, SystemEventsExposePreferencesObject, SystemEventsScreenCorner, SystemEventsShortcut, SystemEventsSpacesPreferencesObject, SystemEventsSpacesShortcut, SystemEventsUser, SystemEventsLoginItem, SystemEventsDesktop, SystemEventsDiskItem, SystemEventsAlias, SystemEventsDisk, SystemEventsDomain, SystemEventsClassicDomainObject, SystemEventsFile, SystemEventsFilePackage, SystemEventsFolder, SystemEventsLocalDomainObject, SystemEventsNetworkDomainObject, SystemEventsSystemDomainObject, SystemEventsUserDomainObject, SystemEventsFolderAction, SystemEventsScript, SystemEventsAction, SystemEventsAttribute, SystemEventsUIElement, SystemEventsBrowser, SystemEventsBusyIndicator, SystemEventsButton, SystemEventsCheckbox, SystemEventsColorWell, SystemEventsColumn, SystemEventsComboBox, SystemEventsDrawer, SystemEventsGroup, SystemEventsGrowArea, SystemEventsImage, SystemEventsIncrementor, SystemEventsList, SystemEventsMenu, SystemEventsMenuBar, SystemEventsMenuBarItem, SystemEventsMenuButton, SystemEventsMenuItem, SystemEventsOutline, SystemEventsPopUpButton, SystemEventsProcess, SystemEventsApplicationProcess, SystemEventsDeskAccessoryProcess, SystemEventsProgressIndicator, SystemEventsRadioButton, SystemEventsRadioGroup, SystemEventsRelevanceIndicator, SystemEventsRow, SystemEventsScrollArea, SystemEventsScrollBar, SystemEventsSheet, SystemEventsSlider, SystemEventsSplitter, SystemEventsSplitterGroup, SystemEventsStaticText, SystemEventsTabGroup, SystemEventsTable, SystemEventsTextArea, SystemEventsTextField, SystemEventsToolBar, SystemEventsValueIndicator, SystemEventsPropertyListFile, SystemEventsPropertyListItem, SystemEventsAnnotation, SystemEventsQuickTimeData, SystemEventsAudioData, SystemEventsMovieData, SystemEventsQuickTimeFile, SystemEventsAudioFile, SystemEventsMovieFile, SystemEventsTrack, SystemEventsXMLAttribute, SystemEventsXMLData, SystemEventsXMLElement, SystemEventsXMLFile, SystemEventsAppearancePreferencesObject, SystemEventsSecurityPreferencesObject, SystemEventsDockPreferencesObject, SystemEventsCDAndDVDPreferencesObject, SystemEventsInsertionPreference, SystemEventsPrintSettings;
 
 enum SystemEventsSavo {
-	SystemEventsSavoAsk = 'ask ' /* Ask the user whether or not to save the file. */,
-	SystemEventsSavoNo = 'no  ' /* Do not save the file. */,
-	SystemEventsSavoYes = 'yes ' /* Save the file. */
+    SystemEventsSavoAsk = 'ask ' /* Ask the user whether or not to save the file. */,
+    SystemEventsSavoNo = 'no  ' /* Do not save the file. */,
+    SystemEventsSavoYes = 'yes ' /* Save the file. */
 };
 typedef enum SystemEventsSavo SystemEventsSavo;
 
 enum SystemEventsEpac {
-	SystemEventsEpacAllWindows = 'allw' /* all windows */,
-	SystemEventsEpacApplicationWindows = 'appw' /* application windows */,
-	SystemEventsEpacDashboard = 'dash' /* dashboard */,
-	SystemEventsEpacDisableScreenSaver = 'disc' /* disable screen saver */,
-	SystemEventsEpacNone = 'none' /* none */,
-	SystemEventsEpacShowDesktop = 'desk' /* show desktop */,
-	SystemEventsEpacShowSpaces = 'spcs' /* show spaces */,
-	SystemEventsEpacSleepDisplay = 'diss' /* sleep display */,
-	SystemEventsEpacStartScreenSaver = 'star' /* start screen saver */
+    SystemEventsEpacAllWindows = 'allw' /* all windows */,
+    SystemEventsEpacApplicationWindows = 'appw' /* application windows */,
+    SystemEventsEpacDashboard = 'dash' /* dashboard */,
+    SystemEventsEpacDisableScreenSaver = 'disc' /* disable screen saver */,
+    SystemEventsEpacNone = 'none' /* none */,
+    SystemEventsEpacShowDesktop = 'desk' /* show desktop */,
+    SystemEventsEpacShowSpaces = 'spcs' /* show spaces */,
+    SystemEventsEpacSleepDisplay = 'diss' /* sleep display */,
+    SystemEventsEpacStartScreenSaver = 'star' /* start screen saver */
 };
 typedef enum SystemEventsEpac SystemEventsEpac;
 
 enum SystemEventsEpmd {
-	SystemEventsEpmdCommand = 'cmdm' /* command */,
-	SystemEventsEpmdControl = 'ctlm' /* control */,
-	SystemEventsEpmdNone = 'none' /* none */,
-	SystemEventsEpmdOption = 'optm' /* option */,
-	SystemEventsEpmdShift = 'shtm' /* shift */
+    SystemEventsEpmdCommand = 'cmdm' /* command */,
+    SystemEventsEpmdControl = 'ctlm' /* control */,
+    SystemEventsEpmdNone = 'none' /* none */,
+    SystemEventsEpmdOption = 'optm' /* option */,
+    SystemEventsEpmdShift = 'shtm' /* shift */
 };
 typedef enum SystemEventsEpmd SystemEventsEpmd;
 
 enum SystemEventsEpfk {
-	SystemEventsEpfkF1 = 'F1ky' /* F1 */,
-	SystemEventsEpfkF10 = 'F10k' /* F10 */,
-	SystemEventsEpfkF11 = 'F11k' /* F11 */,
-	SystemEventsEpfkF12 = 'F12k' /* F12 */,
-	SystemEventsEpfkF13 = 'F13k' /* F13 */,
-	SystemEventsEpfkF14 = 'F14k' /* F14 */,
-	SystemEventsEpfkF15 = 'F15k' /* F15 */,
-	SystemEventsEpfkF16 = 'F16k' /* F16 */,
-	SystemEventsEpfkF17 = 'F17k' /* F17 */,
-	SystemEventsEpfkF18 = 'F18k' /* F18 */,
-	SystemEventsEpfkF19 = 'F19k' /* F19 */,
-	SystemEventsEpfkF2 = 'F2ky' /* F2 */,
-	SystemEventsEpfkF3 = 'F3ky' /* F3 */,
-	SystemEventsEpfkF4 = 'F4ky' /* F4 */,
-	SystemEventsEpfkF5 = 'F5ky' /* F5 */,
-	SystemEventsEpfkF6 = 'F6ky' /* F6 */,
-	SystemEventsEpfkF7 = 'F7ky' /* F7 */,
-	SystemEventsEpfkF8 = 'F8ky' /* F8 */,
-	SystemEventsEpfkF9 = 'F9ky' /* F9 */,
-	SystemEventsEpfkLeftCommand = 'Lcmd' /* left command */,
-	SystemEventsEpfkLeftControl = 'Lctl' /* left control */,
-	SystemEventsEpfkLeftOption = 'Lopt' /* left option */,
-	SystemEventsEpfkLeftShift = 'Lsht' /* left shift */,
-	SystemEventsEpfkNone = 'none' /* none */,
-	SystemEventsEpfkRightCommand = 'Rcmd' /* right command */,
-	SystemEventsEpfkRightControl = 'Rctl' /* right control */,
-	SystemEventsEpfkRightOption = 'Ropt' /* right option */,
-	SystemEventsEpfkRightShift = 'Rsht' /* right shift */,
-	SystemEventsEpfkSecondaryFunctionKey = 'SFky' /* secondary function key */
+    SystemEventsEpfkF1 = 'F1ky' /* F1 */,
+    SystemEventsEpfkF10 = 'F10k' /* F10 */,
+    SystemEventsEpfkF11 = 'F11k' /* F11 */,
+    SystemEventsEpfkF12 = 'F12k' /* F12 */,
+    SystemEventsEpfkF13 = 'F13k' /* F13 */,
+    SystemEventsEpfkF14 = 'F14k' /* F14 */,
+    SystemEventsEpfkF15 = 'F15k' /* F15 */,
+    SystemEventsEpfkF16 = 'F16k' /* F16 */,
+    SystemEventsEpfkF17 = 'F17k' /* F17 */,
+    SystemEventsEpfkF18 = 'F18k' /* F18 */,
+    SystemEventsEpfkF19 = 'F19k' /* F19 */,
+    SystemEventsEpfkF2 = 'F2ky' /* F2 */,
+    SystemEventsEpfkF3 = 'F3ky' /* F3 */,
+    SystemEventsEpfkF4 = 'F4ky' /* F4 */,
+    SystemEventsEpfkF5 = 'F5ky' /* F5 */,
+    SystemEventsEpfkF6 = 'F6ky' /* F6 */,
+    SystemEventsEpfkF7 = 'F7ky' /* F7 */,
+    SystemEventsEpfkF8 = 'F8ky' /* F8 */,
+    SystemEventsEpfkF9 = 'F9ky' /* F9 */,
+    SystemEventsEpfkLeftCommand = 'Lcmd' /* left command */,
+    SystemEventsEpfkLeftControl = 'Lctl' /* left control */,
+    SystemEventsEpfkLeftOption = 'Lopt' /* left option */,
+    SystemEventsEpfkLeftShift = 'Lsht' /* left shift */,
+    SystemEventsEpfkNone = 'none' /* none */,
+    SystemEventsEpfkRightCommand = 'Rcmd' /* right command */,
+    SystemEventsEpfkRightControl = 'Rctl' /* right control */,
+    SystemEventsEpfkRightOption = 'Ropt' /* right option */,
+    SystemEventsEpfkRightShift = 'Rsht' /* right shift */,
+    SystemEventsEpfkSecondaryFunctionKey = 'SFky' /* secondary function key */
 };
 typedef enum SystemEventsEpfk SystemEventsEpfk;
 
 enum SystemEventsEdfm {
-	SystemEventsEdfmApplePhotoFormat = 'dfph' /* Apple Photo format */,
-	SystemEventsEdfmAppleShareFormat = 'dfas' /* AppleShare format */,
-	SystemEventsEdfmAudioFormat = 'dfau' /* audio format */,
-	SystemEventsEdfmHighSierraFormat = 'dfhs' /* High Sierra format */,
-	SystemEventsEdfmISO9660Format = 'df96' /* ISO 9660 format */,
-	SystemEventsEdfmMacOSExtendedFormat = 'dfh+' /* Mac OS Extended format */,
-	SystemEventsEdfmMacOSFormat = 'dfhf' /* Mac OS format */,
-	SystemEventsEdfmMSDOSFormat = 'dfms' /* MSDOS format */,
-	SystemEventsEdfmNFSFormat = 'dfnf' /* NFS format */,
-	SystemEventsEdfmProDOSFormat = 'dfpr' /* ProDOS format */,
-	SystemEventsEdfmQuickTakeFormat = 'dfqt' /* QuickTake format */,
-	SystemEventsEdfmUDFFormat = 'dfud' /* UDF format */,
-	SystemEventsEdfmUFSFormat = 'dfuf' /* UFS format */,
-	SystemEventsEdfmUnknownFormat = 'df$$' /* unknown format */,
-	SystemEventsEdfmWebDAVFormat = 'dfwd' /* WebDAV format */
+    SystemEventsEdfmApplePhotoFormat = 'dfph' /* Apple Photo format */,
+    SystemEventsEdfmAppleShareFormat = 'dfas' /* AppleShare format */,
+    SystemEventsEdfmAudioFormat = 'dfau' /* audio format */,
+    SystemEventsEdfmHighSierraFormat = 'dfhs' /* High Sierra format */,
+    SystemEventsEdfmISO9660Format = 'df96' /* ISO 9660 format */,
+    SystemEventsEdfmMacOSExtendedFormat = 'dfh+' /* Mac OS Extended format */,
+    SystemEventsEdfmMacOSFormat = 'dfhf' /* Mac OS format */,
+    SystemEventsEdfmMSDOSFormat = 'dfms' /* MSDOS format */,
+    SystemEventsEdfmNFSFormat = 'dfnf' /* NFS format */,
+    SystemEventsEdfmProDOSFormat = 'dfpr' /* ProDOS format */,
+    SystemEventsEdfmQuickTakeFormat = 'dfqt' /* QuickTake format */,
+    SystemEventsEdfmUDFFormat = 'dfud' /* UDF format */,
+    SystemEventsEdfmUFSFormat = 'dfuf' /* UFS format */,
+    SystemEventsEdfmUnknownFormat = 'df$$' /* unknown format */,
+    SystemEventsEdfmWebDAVFormat = 'dfwd' /* WebDAV format */
 };
 typedef enum SystemEventsEdfm SystemEventsEdfm;
 
 enum SystemEventsEMds {
-	SystemEventsEMdsCommandDown = 'Kcmd' /* command down */,
-	SystemEventsEMdsControlDown = 'Kctl' /* control down */,
-	SystemEventsEMdsOptionDown = 'Kopt' /* option down */,
-	SystemEventsEMdsShiftDown = 'Ksft' /* shift down */
+    SystemEventsEMdsCommandDown = 'Kcmd' /* command down */,
+    SystemEventsEMdsControlDown = 'Kctl' /* control down */,
+    SystemEventsEMdsOptionDown = 'Kopt' /* option down */,
+    SystemEventsEMdsShiftDown = 'Ksft' /* shift down */
 };
 typedef enum SystemEventsEMds SystemEventsEMds;
 
 enum SystemEventsEMky {
-	SystemEventsEMkyCommand = 'eCmd' /* command */,
-	SystemEventsEMkyControl = 'eCnt' /* control */,
-	SystemEventsEMkyOption = 'eOpt' /* option */,
-	SystemEventsEMkyShift = 'eSft' /* shift */
+    SystemEventsEMkyCommand = 'eCmd' /* command */,
+    SystemEventsEMkyControl = 'eCnt' /* control */,
+    SystemEventsEMkyOption = 'eOpt' /* option */,
+    SystemEventsEMkyShift = 'eSft' /* shift */
 };
 typedef enum SystemEventsEMky SystemEventsEMky;
 
 enum SystemEventsPrmd {
-	SystemEventsPrmdNormal = 'norm' /* normal */,
-	SystemEventsPrmdSlideShow = 'pmss' /* slide show */
+    SystemEventsPrmdNormal = 'norm' /* normal */,
+    SystemEventsPrmdSlideShow = 'pmss' /* slide show */
 };
 typedef enum SystemEventsPrmd SystemEventsPrmd;
 
 enum SystemEventsMvsz {
-	SystemEventsMvszCurrent = 'cust' /* current */,
-	SystemEventsMvszDouble = 'doub' /* double */,
-	SystemEventsMvszHalf = 'half' /* half */,
-	SystemEventsMvszNormal = 'norm' /* normal */,
-	SystemEventsMvszScreen = 'fits' /* screen */
+    SystemEventsMvszCurrent = 'cust' /* current */,
+    SystemEventsMvszDouble = 'doub' /* double */,
+    SystemEventsMvszHalf = 'half' /* half */,
+    SystemEventsMvszNormal = 'norm' /* normal */,
+    SystemEventsMvszScreen = 'fits' /* screen */
 };
 typedef enum SystemEventsMvsz SystemEventsMvsz;
 
 enum SystemEventsSclp {
-	SystemEventsSclpTogether = 'tgth' /* together */,
-	SystemEventsSclpTogetherAtTopAndBottom = 'tgtb' /* together at top and bottom */,
-	SystemEventsSclpTopAndBottom = 'tpbt' /* top and bottom */
+    SystemEventsSclpTogether = 'tgth' /* together */,
+    SystemEventsSclpTogetherAtTopAndBottom = 'tgtb' /* together at top and bottom */,
+    SystemEventsSclpTopAndBottom = 'tpbt' /* top and bottom */
 };
 typedef enum SystemEventsSclp SystemEventsSclp;
 
 enum SystemEventsSclb {
-	SystemEventsSclbJumpToHere = 'tohr' /* jump to here */,
-	SystemEventsSclbJumpToNextPage = 'nxpg' /* jump to next page */
+    SystemEventsSclbJumpToHere = 'tohr' /* jump to here */,
+    SystemEventsSclbJumpToNextPage = 'nxpg' /* jump to next page */
 };
 typedef enum SystemEventsSclb SystemEventsSclb;
 
 enum SystemEventsFtss {
-	SystemEventsFtssAutomatic = 'autm' /* automatic */,
-	SystemEventsFtssLight = 'lite' /* light */,
-	SystemEventsFtssMedium = 'medi' /* medium */,
-	SystemEventsFtssStandard = 'stnd' /* standard */,
-	SystemEventsFtssStrong = 'strg' /* strong */
+    SystemEventsFtssAutomatic = 'autm' /* automatic */,
+    SystemEventsFtssLight = 'lite' /* light */,
+    SystemEventsFtssMedium = 'medi' /* medium */,
+    SystemEventsFtssStandard = 'stnd' /* standard */,
+    SystemEventsFtssStrong = 'strg' /* strong */
 };
 typedef enum SystemEventsFtss SystemEventsFtss;
 
 enum SystemEventsAppe {
-	SystemEventsAppeBlue = 'blue' /* blue */,
-	SystemEventsAppeGraphite = 'grft' /* graphite */
+    SystemEventsAppeBlue = 'blue' /* blue */,
+    SystemEventsAppeGraphite = 'grft' /* graphite */
 };
 typedef enum SystemEventsAppe SystemEventsAppe;
 
 enum SystemEventsHico {
-	SystemEventsHicoBlue = 'blue' /* blue */,
-	SystemEventsHicoGold = 'gold' /* gold */,
-	SystemEventsHicoGraphite = 'grft' /* graphite */,
-	SystemEventsHicoGreen = 'gren' /* green */,
-	SystemEventsHicoOrange = 'orng' /* orange */,
-	SystemEventsHicoPurple = 'prpl' /* purple */,
-	SystemEventsHicoRed = 'red ' /* red */,
-	SystemEventsHicoSilver = 'slvr' /* silver */
+    SystemEventsHicoBlue = 'blue' /* blue */,
+    SystemEventsHicoGold = 'gold' /* gold */,
+    SystemEventsHicoGraphite = 'grft' /* graphite */,
+    SystemEventsHicoGreen = 'gren' /* green */,
+    SystemEventsHicoOrange = 'orng' /* orange */,
+    SystemEventsHicoPurple = 'prpl' /* purple */,
+    SystemEventsHicoRed = 'red ' /* red */,
+    SystemEventsHicoSilver = 'slvr' /* silver */
 };
 typedef enum SystemEventsHico SystemEventsHico;
 
 enum SystemEventsDpls {
-	SystemEventsDplsBottom = 'bott' /* bottom */,
-	SystemEventsDplsLeft = 'left' /* left */,
-	SystemEventsDplsRight = 'righ' /* right */
+    SystemEventsDplsBottom = 'bott' /* bottom */,
+    SystemEventsDplsLeft = 'left' /* left */,
+    SystemEventsDplsRight = 'righ' /* right */
 };
 typedef enum SystemEventsDpls SystemEventsDpls;
 
 enum SystemEventsDpef {
-	SystemEventsDpefGenie = 'geni' /* genie */,
-	SystemEventsDpefScale = 'scal' /* scale */
+    SystemEventsDpefGenie = 'geni' /* genie */,
+    SystemEventsDpefScale = 'scal' /* scale */
 };
 typedef enum SystemEventsDpef SystemEventsDpef;
 
 enum SystemEventsDhac {
-	SystemEventsDhacAskWhatToDo = 'dhas' /* ask what to do */,
-	SystemEventsDhacIgnore = 'dhig' /* ignore */,
-	SystemEventsDhacOpenApplication = 'dhap' /* open application */,
-	SystemEventsDhacRunAScript = 'dhrs' /* run a script */
+    SystemEventsDhacAskWhatToDo = 'dhas' /* ask what to do */,
+    SystemEventsDhacIgnore = 'dhig' /* ignore */,
+    SystemEventsDhacOpenApplication = 'dhap' /* open application */,
+    SystemEventsDhacRunAScript = 'dhrs' /* run a script */
 };
 typedef enum SystemEventsDhac SystemEventsDhac;
 
 enum SystemEventsEnum {
-	SystemEventsEnumStandard = 'lwst' /* Standard PostScript error handling */,
-	SystemEventsEnumDetailed = 'lwdt' /* print a detailed report of PostScript errors */
+    SystemEventsEnumStandard = 'lwst' /* Standard PostScript error handling */,
+    SystemEventsEnumDetailed = 'lwdt' /* print a detailed report of PostScript errors */
 };
 typedef enum SystemEventsEnum SystemEventsEnum;
 

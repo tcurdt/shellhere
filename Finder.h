@@ -9,114 +9,114 @@
 @class FinderApplication, FinderItem, FinderContainer, FinderComputerObject, FinderDisk, FinderFolder, FinderDesktopObject, FinderTrashObject, FinderFile, FinderAliasFile, FinderApplicationFile, FinderDocumentFile, FinderInternetLocationFile, FinderClipping, FinderPackage, FinderWindow, FinderFinderWindow, FinderDesktopWindow, FinderInformationWindow, FinderPreferencesWindow, FinderClippingWindow, FinderApplication, FinderProcess, FinderApplicationProcess, FinderDeskAccessoryProcess, FinderPreferences, FinderLabel, FinderIconFamily, FinderIconViewOptions, FinderColumnViewOptions, FinderListViewOptions, FinderColumn, FinderAliasList;
 
 typedef enum {
-	FinderIpnlGeneralInformationPanel = 'gpnl',
-	FinderIpnlSharingPanel = 'spnl',
-	FinderIpnlMemoryPanel = 'mpnl',
-	FinderIpnlPreviewPanel = 'vpnl',
-	FinderIpnlApplicationPanel = 'apnl',
-	FinderIpnlLanguagesPanel = 'pklg',
-	FinderIpnlPluginsPanel = 'pkpg',
-	FinderIpnlNameExtensionPanel = 'npnl',
-	FinderIpnlCommentsPanel = 'cpnl',
-	FinderIpnlContentIndexPanel = 'cinl'
+    FinderIpnlGeneralInformationPanel = 'gpnl',
+    FinderIpnlSharingPanel = 'spnl',
+    FinderIpnlMemoryPanel = 'mpnl',
+    FinderIpnlPreviewPanel = 'vpnl',
+    FinderIpnlApplicationPanel = 'apnl',
+    FinderIpnlLanguagesPanel = 'pklg',
+    FinderIpnlPluginsPanel = 'pkpg',
+    FinderIpnlNameExtensionPanel = 'npnl',
+    FinderIpnlCommentsPanel = 'cpnl',
+    FinderIpnlContentIndexPanel = 'cinl'
 } FinderIpnl;
 
 typedef enum {
-	FinderPpleGeneralPreferencesPanel = 'pgnp',
-	FinderPpleLabelPreferencesPanel = 'plbp',
-	FinderPpleSidebarPreferencesPanel = 'psid',
-	FinderPpleAdvancedPreferencesPanel = 'padv'
+    FinderPpleGeneralPreferencesPanel = 'pgnp',
+    FinderPpleLabelPreferencesPanel = 'plbp',
+    FinderPpleSidebarPreferencesPanel = 'psid',
+    FinderPpleAdvancedPreferencesPanel = 'padv'
 } FinderPple;
 
 typedef enum {
-	FinderEarrNotArranged = 'narr',
-	FinderEarrSnapToGrid = 'grda',
-	FinderEarrArrangedByName = 'nama',
-	FinderEarrArrangedByModificationDate = 'mdta',
-	FinderEarrArrangedByCreationDate = 'cdta',
-	FinderEarrArrangedBySize = 'siza',
-	FinderEarrArrangedByKind = 'kina',
-	FinderEarrArrangedByLabel = 'laba'
+    FinderEarrNotArranged = 'narr',
+    FinderEarrSnapToGrid = 'grda',
+    FinderEarrArrangedByName = 'nama',
+    FinderEarrArrangedByModificationDate = 'mdta',
+    FinderEarrArrangedByCreationDate = 'cdta',
+    FinderEarrArrangedBySize = 'siza',
+    FinderEarrArrangedByKind = 'kina',
+    FinderEarrArrangedByLabel = 'laba'
 } FinderEarr;
 
 typedef enum {
-	FinderEposRight = 'lrgt',
-	FinderEposBottom = 'lbot'
+    FinderEposRight = 'lrgt',
+    FinderEposBottom = 'lbot'
 } FinderEpos;
 
 typedef enum {
-	FinderSodrNormal = 'snrm',
-	FinderSodrReversed = 'srvs'
+    FinderSodrNormal = 'snrm',
+    FinderSodrReversed = 'srvs'
 } FinderSodr;
 
 typedef enum {
-	FinderIsizMini = 'miic',
-	FinderIsizSmall = 'smic',
-	FinderIsizLarge = 'lgic'
+    FinderIsizMini = 'miic',
+    FinderIsizSmall = 'smic',
+    FinderIsizLarge = 'lgic'
 } FinderIsiz;
 
 typedef enum {
-	FinderSortName = 'pnam',
-	FinderSortModificationDate = 'asmo',
-	FinderSortCreationDate = 'ascd',
-	FinderSortSize = 'phys',
-	FinderSortKind = 'kind',
-	FinderSortLabelIndex = 'labi',
-	FinderSortComment = 'comt',
-	FinderSortVersion = 'vers'
+    FinderSortName = 'pnam',
+    FinderSortModificationDate = 'asmo',
+    FinderSortCreationDate = 'ascd',
+    FinderSortSize = 'phys',
+    FinderSortKind = 'kind',
+    FinderSortLabelIndex = 'labi',
+    FinderSortComment = 'comt',
+    FinderSortVersion = 'vers'
 } FinderSort;
 
 typedef enum {
-	FinderPrivReadOnly = 'read',
-	FinderPrivReadWrite = 'rdwr',
-	FinderPrivWriteOnly = 'writ',
-	FinderPrivNone = 'none'
+    FinderPrivReadOnly = 'read',
+    FinderPrivReadWrite = 'rdwr',
+    FinderPrivWriteOnly = 'writ',
+    FinderPrivNone = 'none'
 } FinderPriv;
 
 typedef enum {
-	FinderElsvNameColumn = 'elsn',
-	FinderElsvModificationDateColumn = 'elsm',
-	FinderElsvCreationDateColumn = 'elsc',
-	FinderElsvSizeColumn = 'elss',
-	FinderElsvKindColumn = 'elsk',
-	FinderElsvLabelColumn = 'elsl',
-	FinderElsvVersionColumn = 'elsv',
-	FinderElsvCommentColumn = 'elsC'
+    FinderElsvNameColumn = 'elsn',
+    FinderElsvModificationDateColumn = 'elsm',
+    FinderElsvCreationDateColumn = 'elsc',
+    FinderElsvSizeColumn = 'elss',
+    FinderElsvKindColumn = 'elsk',
+    FinderElsvLabelColumn = 'elsl',
+    FinderElsvVersionColumn = 'elsv',
+    FinderElsvCommentColumn = 'elsC'
 } FinderElsv;
 
 typedef enum {
-	FinderEcvwIconView = 'icnv',
-	FinderEcvwListView = 'lsvw',
-	FinderEcvwColumnView = 'clvw',
-	FinderEcvwGroupView = 'grvw',
-	FinderEcvwFlowView = 'flvw'
+    FinderEcvwIconView = 'icnv',
+    FinderEcvwListView = 'lsvw',
+    FinderEcvwColumnView = 'clvw',
+    FinderEcvwGroupView = 'grvw',
+    FinderEcvwFlowView = 'flvw'
 } FinderEcvw;
 
 typedef enum {
-	FinderLvicSmallIcon = 'smic',
-	FinderLvicLargeIcon = 'lgic'
+    FinderLvicSmallIcon = 'smic',
+    FinderLvicLargeIcon = 'lgic'
 } FinderLvic;
 
 typedef enum {
-	FinderEdfmMacOSFormat = 'dfhf',
-	FinderEdfmMacOSExtendedFormat = 'dfh+',
-	FinderEdfmUFSFormat = 'dfuf',
-	FinderEdfmNFSFormat = 'dfnf',
-	FinderEdfmAudioFormat = 'dfau',
-	FinderEdfmProDOSFormat = 'dfpr',
-	FinderEdfmMSDOSFormat = 'dfms',
-	FinderEdfmNTFSFormat = 'dfnt',
-	FinderEdfmISO9660Format = 'df96',
-	FinderEdfmHighSierraFormat = 'dfhs',
-	FinderEdfmQuickTakeFormat = 'dfqt',
-	FinderEdfmApplePhotoFormat = 'dfph',
-	FinderEdfmAppleShareFormat = 'dfas',
-	FinderEdfmUDFFormat = 'dfud',
-	FinderEdfmWebDAVFormat = 'dfwd',
-	FinderEdfmFTPFormat = 'dfft',
-	FinderEdfmPacketWrittenUDFFormat = 'dfpu',
-	FinderEdfmXsanFormat = 'dfac',
-	FinderEdfmUnknownFormat = 'df\?\?'
+    FinderEdfmMacOSFormat = 'dfhf',
+    FinderEdfmMacOSExtendedFormat = 'dfh+',
+    FinderEdfmUFSFormat = 'dfuf',
+    FinderEdfmNFSFormat = 'dfnf',
+    FinderEdfmAudioFormat = 'dfau',
+    FinderEdfmProDOSFormat = 'dfpr',
+    FinderEdfmMSDOSFormat = 'dfms',
+    FinderEdfmNTFSFormat = 'dfnt',
+    FinderEdfmISO9660Format = 'df96',
+    FinderEdfmHighSierraFormat = 'dfhs',
+    FinderEdfmQuickTakeFormat = 'dfqt',
+    FinderEdfmApplePhotoFormat = 'dfph',
+    FinderEdfmAppleShareFormat = 'dfas',
+    FinderEdfmUDFFormat = 'dfud',
+    FinderEdfmWebDAVFormat = 'dfwd',
+    FinderEdfmFTPFormat = 'dfft',
+    FinderEdfmPacketWrittenUDFFormat = 'dfpu',
+    FinderEdfmXsanFormat = 'dfac',
+    FinderEdfmUnknownFormat = 'df\?\?'
 } FinderEdfm;
 
 

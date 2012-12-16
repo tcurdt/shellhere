@@ -9,14 +9,14 @@
 @class TerminalApplication, TerminalWindow, TerminalSettingsSet, TerminalTab;
 
 typedef enum {
-	TerminalSaveOptionsYes = 'yes ' /* Save the file. */,
-	TerminalSaveOptionsNo = 'no  ' /* Do not save the file. */,
-	TerminalSaveOptionsAsk = 'ask ' /* Ask the user whether or not to save the file. */
+    TerminalSaveOptionsYes = 'yes ' /* Save the file. */,
+    TerminalSaveOptionsNo = 'no  ' /* Do not save the file. */,
+    TerminalSaveOptionsAsk = 'ask ' /* Ask the user whether or not to save the file. */
 } TerminalSaveOptions;
 
 typedef enum {
-	TerminalPrintingErrorHandlingStandard = 'lwst' /* Standard PostScript error handling */,
-	TerminalPrintingErrorHandlingDetailed = 'lwdt' /* print a detailed report of PostScript errors */
+    TerminalPrintingErrorHandlingStandard = 'lwst' /* Standard PostScript error handling */,
+    TerminalPrintingErrorHandlingDetailed = 'lwdt' /* print a detailed report of PostScript errors */
 } TerminalPrintingErrorHandling;
 
 
